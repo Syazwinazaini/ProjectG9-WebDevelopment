@@ -1,0 +1,103 @@
+
+/*body {
+    width: 500px;
+    margin-block: 15px;
+    padding: 50px;
+  }*/
+ 
+  div.elem-group {
+    margin: 20px 0;
+    float: none;
+    display: block;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+    text-align: center;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #30938d;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 20px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+
+  form::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+section#booking{
+  background: url('images/map.jpg')no-repeat center center fixed;/*img from ws; images/map.jpg*/
+  background-size: cover;
+
+}
+form.appForm{
+    width:40%;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #cecfd0;
+    border-radius: 510px;
+    background: #f4f6f9;
+}
+form label{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+form input.appFormInput{
+    width: 200px;
+}
+div#userAddFormContainer{
+    padding-top: 40px;
+}
+button.appBtn{
+    background: #f685a1;
+    border:1px solid #f685a1;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+
+}
+
